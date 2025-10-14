@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"2eff5bcc16b6f9eb","type":"text","text":"Jeu 3D Extraction Shooter","x":145,"y":73,"width":275,"height":50,"color":"1"},
+		{"id":"604e41e2466406dd","type":"text","text":"GamePlay","x":220,"y":240,"width":126,"height":60,"color":"5"},
+		{"id":"af36ebb593eb95ff","type":"text","text":"Cadre","x":562,"y":69,"width":98,"height":60,"color":"2"},
+		{"id":"4e2dbb8b1588118a","type":"text","text":"Boucle de Jeu","x":158,"y":380,"width":250,"height":60},
+		{"id":"65eb71b004988c29","type":"text","text":"Play\nKill\nExtraction\nAmelioration","x":158,"y":540,"width":250,"height":120},
+		{"id":"013d0a9df51cecdd","type":"text","text":"Fonctionnalité","x":158,"y":-120,"width":250,"height":60,"color":"4"},
+		{"id":"2b75a1b3c332470b","type":"text","text":"Differentes point de vu","x":20,"y":-299,"width":250,"height":60},
+		{"id":"20a9f69b19d9a42b","type":"text","text":"Graphisme 3D Sinplifie","x":340,"y":-299,"width":250,"height":60},
+		{"id":"05856ee0d0d604b8","type":"text","text":"Histoire Basique Base sur le GamePlay(Bonus)","x":740,"y":67,"width":250,"height":64},
+		{"id":"d74ccbdf722a8559","type":"text","text":"## Ce Soir\n- Repartition des roles\n- Definition du cadre (outils, graphismes)\n- La trame CDSF","x":-960,"y":267,"width":250,"height":213},
+		{"id":"beb2014ee86f9270","type":"text","text":"# Planning","x":-640,"y":149,"width":260,"height":91,"color":"1"},
+		{"id":"c49d0b9857a4bd67","type":"text","text":"## 1 semaine\n- Voir les problemes rencontre","x":-320,"y":270,"width":250,"height":147}
+	],
+	"edges":[
+		{"id":"6627ffdb2880754b","fromNode":"2eff5bcc16b6f9eb","fromSide":"bottom","toNode":"604e41e2466406dd","toSide":"top"},
+		{"id":"da6f92677de2b790","fromNode":"2eff5bcc16b6f9eb","fromSide":"right","toNode":"af36ebb593eb95ff","toSide":"left"},
+		{"id":"7f172d728d0f7aa2","fromNode":"af36ebb593eb95ff","fromSide":"right","toNode":"05856ee0d0d604b8","toSide":"left"},
+		{"id":"534ef6d5f0607aab","fromNode":"604e41e2466406dd","fromSide":"bottom","toNode":"4e2dbb8b1588118a","toSide":"top"},
+		{"id":"18d480dffe0ecf3b","fromNode":"2eff5bcc16b6f9eb","fromSide":"top","toNode":"013d0a9df51cecdd","toSide":"bottom"},
+		{"id":"a74b9894d9071dc2","fromNode":"013d0a9df51cecdd","fromSide":"top","toNode":"2b75a1b3c332470b","toSide":"bottom"},
+		{"id":"ef39a89b2ed14d48","fromNode":"013d0a9df51cecdd","fromSide":"top","toNode":"20a9f69b19d9a42b","toSide":"bottom"},
+		{"id":"66ceb7398d759270","fromNode":"4e2dbb8b1588118a","fromSide":"bottom","toNode":"65eb71b004988c29","toSide":"top"},
+		{"id":"0b4db8d901d28c43","fromNode":"beb2014ee86f9270","fromSide":"right","toNode":"c49d0b9857a4bd67","toSide":"top"},
+		{"id":"14f46b38a77217b2","fromNode":"beb2014ee86f9270","fromSide":"left","toNode":"d74ccbdf722a8559","toSide":"top"}
+	]
+}
