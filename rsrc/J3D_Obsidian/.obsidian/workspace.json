@@ -13,15 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Templates/Note Template.md",
+                "file": "5. Calendar/PUSH.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Note Template"
+              "title": "PUSH"
+            }
+          },
+          {
+            "id": "e9297515b6cc5b2b",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {},
+              "icon": "calendar-glyph",
+              "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,22 +175,23 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
+      "obsidian-kanban:Create new board": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "73e9539d14e73111",
+  "active": "e9297515b6cc5b2b",
   "lastOpenFiles": [
+    "2025-10-14.md",
+    "5. Calendar/PUSH.md",
     "4. Attachements/PUSH.md",
     "3. Templates/Note Template.md",
-    "5. Calendar/PUSH.md",
-    "4. Attachements/Untitled",
-    "2. Notes/Projet J3D.canvas",
     "2. Notes/ToDo List.md",
+    "2. Notes/Projet J3D.canvas",
+    "1. Inbox/Organisation.md",
+    "4. Attachements/Untitled",
     "Untitled Kanban.md",
     "5. Calendar",
-    "1. Inbox/Organisation.md",
     "3. MOC/Untitled.md",
     "3. Templates",
     "Untitled/Untitled",
