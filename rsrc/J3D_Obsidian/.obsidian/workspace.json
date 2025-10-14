@@ -11,10 +11,14 @@
             "id": "3679007ac6840a78",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "3. Templates/Note Template.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Note Template"
             }
           }
         ]
@@ -160,14 +164,17 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "3679007ac6840a78",
+  "active": "73e9539d14e73111",
   "lastOpenFiles": [
+    "4. Attachements/PUSH.md",
+    "3. Templates/Note Template.md",
+    "5. Calendar/PUSH.md",
+    "4. Attachements/Untitled",
     "2. Notes/Projet J3D.canvas",
     "2. Notes/ToDo List.md",
     "Untitled Kanban.md",
