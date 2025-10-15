@@ -2,7 +2,7 @@ import pygame as pg
 
 pg.init()
 
-# IMAGES
+# IMAGES LOQDING
 icon = pg.image.load("assets/icon.png")
 title = pg.image.load("assets/title.png")
 play_btn = pg.image.load("assets/play.png")
@@ -10,20 +10,22 @@ play_btn = pg.transform.smoothscale(play_btn, (210, 74))
 settings_btn = pg.image.load("assets/settings.png")
 settings_btn = pg.transform.smoothscale(settings_btn, (50, 50))
 
-# ROOT 
+# ROOT SETTINGS
 WIDTH, HEIGHT = 800, 720
 root = pg.display.set_mode((WIDTH, HEIGHT))
 pg.display.set_caption("J3D")
 pg.display.set_icon(icon)
 cursor_state = "arrow"
 
-# RECT 
+# RECTS
 play_btn_rect = play_btn.get_rect(topleft=(WIDTH // 2 - 100, HEIGHT // 2))
 settings_btn_rect = settings_btn.get_rect(topleft=(10, 10))
 
-# GAME
+# RUN LOOP
 running = True
 while running:
+    
+    # EVENTS GESTION
     for event in pg.event.get():
         if event.type == pg.QUIT:
             running = False       
@@ -39,6 +41,7 @@ while running:
     hov_settings = settings_btn_rect.collidepoint(mouse_pos)
     hovering = play_btn_rect.collidepoint(mouse_pos) or settings_btn_rect.collidepoint(mouse_pos)
 
+    # MOUSE CURSOR GESTION
     if hovering and cursor_state != "hand":
         pg.mouse.set_cursor(pg.SYSTEM_CURSOR_HAND)
         cursor_state = "hand"
@@ -46,7 +49,7 @@ while running:
         pg.mouse.set_cursor(pg.SYSTEM_CURSOR_ARROW)
         cursor_state = "arrow"
 
-    # Rendu
+    # DISPLAYS
     root.fill((0, 0, 0))
     root.blit(settings_btn, (10, 10))
     root.blit(title, (150, 0))
